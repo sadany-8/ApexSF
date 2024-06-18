@@ -73,16 +73,6 @@ System.debug('My name is ' + tempvar);*/
 // }
 
 
-Integer rows = 8;
-
-for (Integer rowOfNumber = 1; rowOfNumber <= rows; rowOfNumber++) {
-    String star = '';
-    for (Integer starOfNumber = 1; starOfNumber <= rowOfNumber; starOfNumber++) {
-        star += '*';
-    }
-    System.debug(star);
-}
-
 FirstApexClass obj = new FirstApexClass();
 
 
